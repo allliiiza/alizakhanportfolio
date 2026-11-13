@@ -181,6 +181,27 @@ footer{padding:2rem 0 3rem;color:var(--muted);font-size:.85rem}
 
 <section id="projects" class="wrap">
   <h2 class="intro">Here are a few of my projects:</h2>
+
+  <article class="project">
+    <div>
+      <h3>crumbz</h3>
+      <p class="sub">A day planner and food passport for a very long list of saved food spots.</p>
+      <ul class="stack"><li>JavaScript</li><li>HTML / CSS</li><li>Python</li><li>localStorage</li><li>GitHub Pages</li></ul>
+      <a class="live" style="margin-right:.5rem" href="https://allliiiza.github.io/crumbz/" target="_blank" rel="noopener">Open the live site</a>
+      <a class="live" href="https://github.com/allliiiza/crumbz" target="_blank" rel="noopener">View the code on GitHub</a>
+      <p class="note">Built for a vibe coding challenge: take a spreadsheet of saved places and turn it into something useful.</p>
+    </div>
+    <div class="body">
+      <p>The challenge was a Google Maps export with thousands of saved places. I picked the foodie persona, someone who saves every interesting spot but never actually goes, and built crumbz around that. You tell it what you're in the mood for and where you'll be, it plans your day from your own saves, and when you go somewhere you stamp it in your food passport with a note for next time.</p>
+      <ul>
+        <li><strong>Day planner:</strong> a short quiz where you pick parts of the day, cities, distance, and cravings. Results are split into morning coffee, lunch, a sweet treat, dinner, and drinks, with Google Maps and Yelp links for every spot.</li>
+        <li><strong>Plan my day for me:</strong> builds a full day for you, either all in one city or hopping around nearby, and you can swap any stop or shuffle again.</li>
+        <li><strong>Food passport:</strong> stamps with ratings and notes, saved days, and a saved-for-later list, all kept in the browser with localStorage, so there's no backend or login.</li>
+        <li><strong>Data:</strong> a Python script turns the spreadsheet into the site's data, keeps only food spots, filters out kids' and non-food places, and tags cuisines from restaurant names.</li>
+        <li><strong>Details:</strong> browser back, forward, and refresh work on every screen, a crab and a starfish react to what you pick, waves roll along the bottom, and the layout works on phones.</li>
+      </ul>
+    </div>
+  </article>
   
   <article class="project">
     <div>
